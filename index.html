@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+    <link href="./style.css" rel="stylesheet">
+    <script src="http://api.map.baidu.com/api?v=2.0&ak=zrIUNXxqoCCHENbDCqfeSG0Y9Yz9BHZi"></script>
+
+
+    <script src="DrawingManager.js"></script>
+    <link href="DrawingManager.css" rel="stylesheet"/>
+</head>
+<body>
+
+<div id="baiduMap"></div>
+<input type="button" value="获取绘制的覆盖物个数" onclick="alert(overlays.length)"/>
+<input type="button" value="清除所有覆盖物" onclick="clearAll()"/>
+
+<script src="./baidu.js"></script>
+
+</body>
+</html>
