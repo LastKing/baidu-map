@@ -666,7 +666,7 @@ var BMAP_DRAWING_MARKER    = "marker",     // 鼠标画点模式
     var me = this;
     this._close();
     setTimeout(function(){
-      me._map.enableDoubleClickZoom();
+      // me._map.enableDoubleClickZoom();
     },2000);
 
   };
